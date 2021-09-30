@@ -32,6 +32,12 @@
 <html lang="en">
   <head>
     <style>
+
+        @media only screen and (max-width: 600px) {
+            .btn {
+                margin-top: 20px; 
+            }
+        }
         .bg-primary{
             color: white;
         }
@@ -76,7 +82,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-1 text-center">
                 <?php
                     if ($aktif == "aktif"){
                         echo '<a href="index.php?set=aktif" style="color:white;" class="btn btn-lg btn-danger btn-lg">NONAKTIF</a>';
